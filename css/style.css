@@ -1,0 +1,183 @@
+*{
+  box-sizing: border-box;
+}
+
+svg{
+  width:3em;
+  margin-bottom:3em;
+}
+
+.s100{
+  width:100%;
+  border: solid black 2px ;
+}
+
+.pelicula{
+  width:17%;
+  margin-bottom:2em;
+  box-shadow: 0 4px 8px black;
+}
+
+.tabHorarios{
+  display:flex;
+  justify-content: space-around;
+  width:100%;
+}
+
+#s4{
+  border:solid black 2px;
+  margin-bottom:2em;
+  text-align:center;
+}
+
+#mySvg{
+  width:100%;
+  border:solid black 5px;
+}
+
+.container {
+  width:100%;
+}
+
+#s42{
+  border:solid black 2px;
+  margin-bottom:2em;
+  text-align:center;
+  width:100%;
+}
+.cabeceraEntradas{
+  border-bottom:solid black 2px;
+  background-color:grey;
+  font-size:1.5em;
+  color:white;
+  display:flex;
+  justify-content: space-around;
+}
+
+.rowEntradas{
+  border-bottom:solid black 1px;
+  display:flex;
+  justify-content: space-around;
+  width:100%;
+}
+
+.rowBotones{
+  display:flex;
+  justify-content: center;
+}
+
+.horariosLabel{
+  width: 20%;
+}
+
+.spanI{
+  font-size:1.5em;
+  width:20%;
+}
+
+.pelicula:hover{
+  -webkit-box-shadow: 0 10px 24px 0 #00539E, 0 40px 77px 0 rgba(0, 0, 0, 0.22);
+  box-shadow: 0 10px 24px 0 #00539E, 0 40px 77px 0 rgba(0, 0, 0, 0.22); 
+}
+
+.imgs{
+  width:100%;
+  height:17em;
+}
+
+.btVotar{
+	width:100%;
+}
+
+.header{
+  text-align:center;
+  display:flex;
+  justify-content: space-between;
+  background-color:#00539E;
+  color:white;
+}
+
+.footer{
+  background-color:grey;
+  color:white;
+}
+
+.logo{
+  align-self:flex-start;
+  max-height:100px;
+}
+
+.title {
+  align-self:center; 
+}
+
+.credit-card-div  span { padding-top:10px; }
+.credit-card-div img { padding-top:30px; }
+.credit-card-div .small-font { font-size:9px; }
+.credit-card-div .pad-adjust { padding-top:10px; }
+
+#mapa0{
+  visibility: hidden;
+  position:absolute;
+  top:0;
+}
+
+#ccvImg{
+  width:30px;
+}
+
+.login{
+  max-height:100px;
+  border:solid white 2px;
+}
+
+.sitGroup{
+  width:100%;
+}
+
+.green{
+	fill:green;
+}
+.blue{
+	fill:blue;
+}
+.red{
+	fill:darkred;
+}
+
+#main {
+  padding-top:2em;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+#screen{
+ width:100%;
+}
+
+@media (max-width: 800px) {
+
+      .s100 , .s75 , .s25 {
+        width:100%;
+        border:none;
+      }
+
+      .pelicula{
+        width:80%;
+      }
+
+      .imgs{
+        width:100%;
+        height:auto;
+      }
+      
+      .sitGroup{
+        transform:scale(2);
+        width:50%;
+      }
+
+      .horariosLabel{
+        width:100%;
+      }
+}
